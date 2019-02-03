@@ -1,0 +1,141 @@
+body{
+    margin:0px;
+    FONT-family:Agency FB;
+    }
+    
+    nav{
+    FONT-family:Agency FB;
+    background:SKYBLUE;
+    height:20vh;
+    }
+    
+    h1{
+    
+    
+    font-size:3em;
+    TEXT-ALIGN:center;
+    margin: 
+    
+    }
+    
+    button{
+    FONT-family:Bell MT;
+    font-size:1em;
+    color:red;
+    height:7vh;
+    width:14vh;
+    border:0px solid;
+    float:right;
+    
+    background:transparent;
+    }
+    div{
+    height:70vh;
+    border:0px solid;
+    background: url("19.jpg") fixed #555;
+    background-size:;
+    
+    }
+    
+    footer{
+    FONT:Agency FB;
+    color:#fff;
+    background:#222;
+    height:15vh;
+    }
+    
+    
+    
+    #search{
+    color:red;
+    background:#cedce0;
+    height:5vh;
+    width:15vh;
+    border:2px solid #444;
+    border-radius:8px;
+    float:right;
+    FONT:Agency FB;
+    }
+    
+    
+    #search:hover{
+    color:red;
+    background:#cedce0;
+    height:5vh;
+    width:30vh;
+    border:2px solid #444;
+    border-radius:8px;
+    float:right;
+    FONT:Agency FB;
+    animation:long 2s linear;
+   padding-bottom: 20px;
+    }
+    
+    
+    @keyframes long{
+    0%{
+    color:red;
+    background:#cedce0;
+    height:5vh;
+    width:15vh;
+    border:2px solid #444;
+    border-radius:8px;
+    float:right;
+    FONT:Agency FB;
+    
+    }
+    
+    100%{
+    width:30vh;
+    
+    }
+    }
+    
+    img{
+    height:19vh;
+    width:19vh;
+    float:left;
+    border-radius:50%;
+    border:2px solid #444;
+    background:#cedce0;
+    
+    }
+    
+    #over{
+    
+    background:red;
+    height:65vh;
+    }
+    
+    
+    form{
+    text-align:center;
+    background:rgba(5,5,5,0.3);
+    height:70vh;
+    }
+    
+    
+    input{
+    color:skyblue;
+    background:transparent;
+    height:6vh;
+    width:47vh;
+    border-top:3px solid transparent;
+    border-left:3px solid transparent;
+    border-right:3px solid transparent;
+    border-bottom:2px solid skyblue;
+    
+    }
+    
+    #submit{
+    FONT-family:Bell MT;
+    font-size:1em;
+    color:skyblue;
+    height:11vh;
+    width:11vh;
+    border:2px solid skyblue;
+    text-align:center;
+    background:transparent;
+    margin:auto;
+    border-radius:50%;
+    }
