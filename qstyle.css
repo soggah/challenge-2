@@ -1,6 +1,7 @@
 body{
     margin:0px;
     FONT-family:Agency FB;
+
     }
     
     nav{
@@ -10,12 +11,11 @@ body{
     }
     
     h1{
-    
-    
-    font-size:3em;
-    TEXT-ALIGN:center;
-    margin: 
-    
+    font-size:5em;
+    TEXT-ALIGN:center; 
+    font-family: 'Times New Roman';
+    margin:0;
+    padding:10px; 
     }
     
     button{
@@ -32,9 +32,9 @@ body{
     div{
     height:70vh;
     border:0px solid;
-    background: url("19.jpg") fixed #555;
-    background-size:;
-    
+    background: url("teen.jpeg") fixed;
+    background-repeat: no-repeat;
+    background-size:40cm;
     }
     
     footer{
@@ -92,15 +92,10 @@ body{
     }
     
     img{
-    height:19vh;
-    width:19vh;
+    height:5vh;
     float:left;
-    border-radius:50%;
-    border:2px solid #444;
-    background:#cedce0;
-    
+    align:center;
     }
-    
     #over{
     
     background:red;
@@ -138,4 +133,10 @@ body{
     background:transparent;
     margin:auto;
     border-radius:50%;
+    animation:spin 2s linear infinite;
+    
     }
+    @keyframes spin {
+        0%{transform:rotate(0deg);}
+        100%{ transform:rotate(360deg);     }
+    
